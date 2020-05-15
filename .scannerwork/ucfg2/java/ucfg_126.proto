@@ -1,0 +1,126 @@
+
+(com.jcraft.jroar.Source#parseHeader([B)ZS
+GD:/RepositorioGitHubDesktop/eas-post-sonar/com/jcraft/jroar/Source.java¢
+ ¢("14*ƒ
+13S
+GD:/RepositorioGitHubDesktop/eas-post-sonar/com/jcraft/jroar/Source.javaØ Ø(p
+n
+S
+GD:/RepositorioGitHubDesktop/eas-post-sonar/com/jcraft/jroar/Source.javaØ& Ø(-	
+%3int"__id*
+""ËÂ
+S
+GD:/RepositorioGitHubDesktop/eas-post-sonar/com/jcraft/jroar/Source.javaØ Ø(.	
+%4int"(java.io.ByteArrayInputStream#read([BII)I*$
+"
+isjava.io.ByteArrayInputStream*
+
+bufferbyte[]*
+""*
+	
+%3int2
+read([BII)*
+2
+4
+8
+1*∫
+2S
+GD:/RepositorioGitHubDesktop/eas-post-sonar/com/jcraft/jroar/Source.java≈ ≈(Å
+
+S
+GD:/RepositorioGitHubDesktop/eas-post-sonar/com/jcraft/jroar/Source.java≈ ≈(
+%12java.io.PrintStream"__id*
+""¸˘
+S
+GD:/RepositorioGitHubDesktop/eas-post-sonar/com/jcraft/jroar/Source.java≈ ≈(@
+%13void"0java.io.PrintStream#println(Ljava/lang/String;)V*
+
+%12java.io.PrintStream*(&
+$Error reading initial header packet.2println(Ljava/lang/String;)"]
+S
+GD:/RepositorioGitHubDesktop/eas-post-sonar/com/jcraft/jroar/Source.java∆ ∆(
+""*◊
+14S
+GD:/RepositorioGitHubDesktop/eas-post-sonar/com/jcraft/jroar/Source.java• •(6öó
+S
+GD:/RepositorioGitHubDesktop/eas-post-sonar/com/jcraft/jroar/Source.java™  ™(4"
+%0java.io.ByteArrayInputStream"java.io.ByteArrayInputStream¬
+ø
+S
+GD:/RepositorioGitHubDesktop/eas-post-sonar/com/jcraft/jroar/Source.java™ ™(<
+%1"(java.io.ByteArrayInputStream#<init>([B)V*$
+"
+%0java.io.ByteArrayInputStream*
+
+headerbyte[]®
+•
+S
+GD:/RepositorioGitHubDesktop/eas-post-sonar/com/jcraft/jroar/Source.java™ ™(="
+isjava.io.ByteArrayInputStream"__id*$
+"
+%0java.io.ByteArrayInputStreamp
+n
+S
+GD:/RepositorioGitHubDesktop/eas-post-sonar/com/jcraft/jroar/Source.java≠ ≠(	
+%2int"__id*
+""w
+u
+S
+GD:/RepositorioGitHubDesktop/eas-post-sonar/com/jcraft/jroar/Source.javaÆ Æ(
+bufferbyte[]"__id*
+""*
+13*≈
+4S
+GD:/RepositorioGitHubDesktop/eas-post-sonar/com/jcraft/jroar/Source.java¿ ¿(Å
+
+S
+GD:/RepositorioGitHubDesktop/eas-post-sonar/com/jcraft/jroar/Source.java¿ ¿(
+%10java.io.PrintStream"__id*
+""áÑ
+S
+GD:/RepositorioGitHubDesktop/eas-post-sonar/com/jcraft/jroar/Source.java¿ ¿(K
+%11void"0java.io.PrintStream#println(Ljava/lang/String;)V*
+
+%10java.io.PrintStream*31
+/Error reading first page of Ogg bitstream data.2println(Ljava/lang/String;)"]
+S
+GD:/RepositorioGitHubDesktop/eas-post-sonar/com/jcraft/jroar/Source.java¡ ¡(
+""*¿
+6S
+GD:/RepositorioGitHubDesktop/eas-post-sonar/com/jcraft/jroar/Source.java∑ ∑(Ä
+~
+S
+GD:/RepositorioGitHubDesktop/eas-post-sonar/com/jcraft/jroar/Source.java∑ ∑(
+%8java.io.PrintStream"__id*
+""ÉÄ
+S
+GD:/RepositorioGitHubDesktop/eas-post-sonar/com/jcraft/jroar/Source.java∑ ∑(I
+
+%9void"0java.io.PrintStream#println(Ljava/lang/String;)V*
+
+%8java.io.PrintStream*1/
+-Input does not appear to be an Ogg bitstream.2println(Ljava/lang/String;)"]
+S
+GD:/RepositorioGitHubDesktop/eas-post-sonar/com/jcraft/jroar/Source.java∏ ∏(
+""*∑
+7S
+GD:/RepositorioGitHubDesktop/eas-post-sonar/com/jcraft/jroar/Source.java∂ ∂($"]
+S
+GD:/RepositorioGitHubDesktop/eas-post-sonar/com/jcraft/jroar/Source.java∂ ∂(%
+""*“
+8S
+GD:/RepositorioGitHubDesktop/eas-post-sonar/com/jcraft/jroar/Source.java∂	 ∂(p
+n
+S
+GD:/RepositorioGitHubDesktop/eas-post-sonar/com/jcraft/jroar/Source.java∂ ∂(	
+%7int"__id*
+""*
+6
+7*∑
+1S
+GD:/RepositorioGitHubDesktop/eas-post-sonar/com/jcraft/jroar/Source.java‹ ‹("]
+S
+GD:/RepositorioGitHubDesktop/eas-post-sonar/com/jcraft/jroar/Source.java‹ ‹(
+"":
+headerbyte[]B
+com.jcraft.jroar.Source

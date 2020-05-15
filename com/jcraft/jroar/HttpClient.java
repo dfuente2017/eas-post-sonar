@@ -1,5 +1,5 @@
 /* -*-mode:java; c-basic-offset:2; -*- */
-/* JRoar -- pure Java streaming server for Ogg
+/* JRoar -- pure Java streaming server for Ogg 
  *
  * Copyright (C) 2001,2002 ymnk, JCraft,Inc.
  *
@@ -29,7 +29,7 @@ class HttpClient extends Client{
   MySocket ms=null;
   String file=null;
 
-  String touched="not yet";
+String touched="not yet";
 
   HttpClient(MySocket ms, List httpHeader, String file){
     super();
@@ -47,7 +47,7 @@ class HttpClient extends Client{
   public void write(List httpHeader, byte[] header,
 		    byte[] foo, int foostart, int foolength,
 		    byte[] bar, int barstart, int barlength) throws IOException{
-    touched="done";
+touched="done";
     lasttime=System.currentTimeMillis();
     ready=true;
     if(!headerIsSent){

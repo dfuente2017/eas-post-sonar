@@ -1,0 +1,22 @@
+
+4com.jcraft.jroar.Debug#ln(Ljava/lang/StringBuffer;)VP
+FD:/RepositorioGitHubDesktop/eas-post-sonar/com/jcraft/jroar/Debug.javaY Y("1*Ä
+1P
+FD:/RepositorioGitHubDesktop/eas-post-sonar/com/jcraft/jroar/Debug.javaZ Z(z
+x
+P
+FD:/RepositorioGitHubDesktop/eas-post-sonar/com/jcraft/jroar/Debug.javaZ Z(
+%0java.lang.String"__id*
+""”‘
+P
+FD:/RepositorioGitHubDesktop/eas-post-sonar/com/jcraft/jroar/Debug.javaZ Z(
+%1java.lang.StringBuffer"Ijava.lang.StringBuffer#append(Ljava/lang/String;)Ljava/lang/StringBuffer;*
+
+sbjava.lang.StringBuffer*
+
+%0java.lang.String2append(Ljava/lang/String;)"Z
+P
+FD:/RepositorioGitHubDesktop/eas-post-sonar/com/jcraft/jroar/Debug.java[ [(
+"":
+sbjava.lang.StringBufferB
+com.jcraft.jroar.Debug

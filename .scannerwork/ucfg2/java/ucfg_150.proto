@@ -1,0 +1,58 @@
+
+3com.jcraft.jroar.Proxy#toString()Ljava/lang/String;R
+FD:/RepositorioGitHubDesktop/eas-post-sonar/com/jcraft/jroar/Proxy.javaÅ Å("1*Ý
+
+1R
+FD:/RepositorioGitHubDesktop/eas-post-sonar/com/jcraft/jroar/Proxy.javaÆ Æ(¦
+£
+R
+FD:/RepositorioGitHubDesktop/eas-post-sonar/com/jcraft/jroar/Proxy.javaÆ Æ(
+%0java.lang.String"-java.lang.Object#toString()Ljava/lang/String;*
+""
+š
+R
+FD:/RepositorioGitHubDesktop/eas-post-sonar/com/jcraft/jroar/Proxy.javaÆ Æ("
+%1java.lang.String"__concat*
+
+%0java.lang.String*
+ me=™
+–
+R
+FD:/RepositorioGitHubDesktop/eas-post-sonar/com/jcraft/jroar/Proxy.javaÆ# Æ(%
+%2java.lang.Thread"__id*"* 
+com.jcraft.jroar.Proxy"
+me­
+ª
+R
+FD:/RepositorioGitHubDesktop/eas-post-sonar/com/jcraft/jroar/Proxy.javaÆ Æ(%
+%3java.lang.String"__concat*
+
+%1java.lang.String*
+
+%2java.lang.Thread¥
+¢
+R
+FD:/RepositorioGitHubDesktop/eas-post-sonar/com/jcraft/jroar/Proxy.javaÆ Æ(4
+%4java.lang.String"__concat*
+
+%3java.lang.String*
+, bitStream=£
+ 
+R
+FD:/RepositorioGitHubDesktop/eas-post-sonar/com/jcraft/jroar/Proxy.javaÆ5 Æ(>
+%5java.io.InputStream"__id*)*'
+com.jcraft.jroar.Proxy"
+	bitStream°
+­
+R
+FD:/RepositorioGitHubDesktop/eas-post-sonar/com/jcraft/jroar/Proxy.javaÆ Æ(>
+%6java.lang.String"__concat*
+
+%4java.lang.String*
+
+%5java.io.InputStream"n
+R
+FD:/RepositorioGitHubDesktop/eas-post-sonar/com/jcraft/jroar/Proxy.javaÆ Æ(?
+
+%6java.lang.StringB
+com.jcraft.jroar.Proxy

@@ -1,0 +1,33 @@
+
+\com.jcraft.jroar.Debug#wrapln(Ljava/lang/StringBuffer;Ljava/lang/String;Ljava/lang/String;)VP
+FD:/RepositorioGitHubDesktop/eas-post-sonar/com/jcraft/jroar/Debug.javaS S("1*¹
+1P
+FD:/RepositorioGitHubDesktop/eas-post-sonar/com/jcraft/jroar/Debug.javaT T(¯
+¬
+P
+FD:/RepositorioGitHubDesktop/eas-post-sonar/com/jcraft/jroar/Debug.javaT T(
+
+%0void"Zcom.jcraft.jroar.Debug#wrap(Ljava/lang/StringBuffer;Ljava/lang/String;Ljava/lang/String;)V*
+com.jcraft.jroar.Debug*
+
+sbjava.lang.StringBuffer*
+
+tagjava.lang.String*
+
+foojava.lang.StringÓ
+Ð
+P
+FD:/RepositorioGitHubDesktop/eas-post-sonar/com/jcraft/jroar/Debug.javaU U(
+
+
+%1void"4com.jcraft.jroar.Debug#ln(Ljava/lang/StringBuffer;)V*
+com.jcraft.jroar.Debug*
+
+sbjava.lang.StringBuffer"Z
+P
+FD:/RepositorioGitHubDesktop/eas-post-sonar/com/jcraft/jroar/Debug.javaV V(
+"":
+sbjava.lang.StringBuffer:
+tagjava.lang.String:
+foojava.lang.StringB
+com.jcraft.jroar.Debug

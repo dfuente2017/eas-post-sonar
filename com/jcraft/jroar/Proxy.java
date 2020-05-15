@@ -1,5 +1,5 @@
 /* -*-mode:java; c-basic-offset:2; -*- */
-/* JRoar -- pure Java streaming server for Ogg
+/* JRoar -- pure Java streaming server for Ogg 
  *
  * Copyright (C) 2001,2002 ymnk, JCraft,Inc.
  *
@@ -30,12 +30,12 @@ import com.jcraft.jogg.*;
 class Proxy extends Source implements Runnable{
   static final int BUFSIZE=4096*2;
 
-  //  private String source=null;
+//  private String source=null;
   private InputStream bitStream=null;
 
   private SyncState oy;
   private com.jcraft.jogg.Page og;
-
+  
   private byte[] buffer=null;
   private int bytes=0;
 
@@ -50,7 +50,7 @@ class Proxy extends Source implements Runnable{
     super(mountpoint);
     this.source=source;
 
-    HttpServer.sourceConnections++;
+HttpServer.sourceConnections++;
 
   }
 
@@ -76,8 +76,8 @@ class Proxy extends Source implements Runnable{
     me.start();
   }
 
-  public void run() {
-    //if(me==null) return;
+  public void run(){
+    //if(me==null) return; 
     lasttime=System.currentTimeMillis();
 
     List httpHeader = Collections.synchronizedList(new ArrayList<>());
@@ -121,11 +121,11 @@ class Proxy extends Source implements Runnable{
       for(;i<httpHeader.size();i++){
         s=(String)(httpHeader.get(i));
         if(s.startsWith(foo)){
-          index++;
-          foo="jroar-source."+index+": ";
-          i=0;
-          continue;
-        }
+           index++;
+           foo="jroar-source."+index+": ";
+           i=0;
+           continue;
+	}
         break;
       }
       httpHeader.add(foo+source);
@@ -133,7 +133,7 @@ class Proxy extends Source implements Runnable{
       bitStream=urlc.getInputStream();
     }
     catch(Exception ee){
-      System.err.println(ee);
+      System.err.println(ee); 	    
       me=null;
 //    drop();
       stop();
@@ -149,7 +149,7 @@ class Proxy extends Source implements Runnable{
 
     retry=RETRY;
 
-    loop:
+  loop:
     while(me!=null){
       boolean eos=false;
       header=null;
@@ -173,45 +173,45 @@ class Proxy extends Source implements Runnable{
         catch(Exception e){}
 
         while(!eos){
-          int result=oy.pageout(og);
+	  int result=oy.pageout(og);
 
-          if(result==0)break; // need more data
-          if(result==-1){ // missing or corrupt data at this page position
+	  if(result==0)break; // need more data
+	  if(result==-1){ // missing or corrupt data at this page position
 //	    System.err.println("Corrupt or missing data in bitstream; continuing...");
-          }
-          else{
+	  }
+	  else{
             retry=RETRY;
 
 //  	    if(serialno!=og.serialno()){
 //              header=null;
 //              serialno=og.serialno();
 //	    }
-
+          
             if((og.granulepos()==0)
-                    || (og.granulepos()==-1)          // hack for Speex
-            ){
+               || (og.granulepos()==-1)          // hack for Speex
+              ){
               if(header!=null){header=null;}
-              if(pages.length<=page_count){
-                com.jcraft.jogg.Page[] foo=new com.jcraft.jogg.Page[pages.length*2];
-                System.arraycopy(pages, 0, foo, 0, pages.length);
-                pages=foo;
-              }
-              pages[page_count++]=og.copy();
-            }
+	      if(pages.length<=page_count){
+		com.jcraft.jogg.Page[] foo=new com.jcraft.jogg.Page[pages.length*2];
+		System.arraycopy(pages, 0, foo, 0, pages.length);
+		pages=foo;
+	      }
+	      pages[page_count++]=og.copy();
+	    }
             else{
               if(header==null){
-                //parseHeader(pages, page_count);
-                com.jcraft.jogg.Page foo;
-                for(int i=0;i< page_count; i++){
-                  foo=pages[i];
-                  _header.write(foo.header_base, foo.header, foo.header_len);
-                  _header.write(foo.body_base, foo.body, foo.body_len);
-                }
+		//parseHeader(pages, page_count);
+		com.jcraft.jogg.Page foo;
+		for(int i=0;i< page_count; i++){
+		  foo=pages[i];
+		  _header.write(foo.header_base, foo.header, foo.header_len);
+		  _header.write(foo.body_base, foo.body, foo.body_len);
+		}
                 header=_header.toByteArray();
                 _header.reset();
-                page_count=0;
-              }
-            }
+		page_count=0;
+	      }
+	    }
 
 //          synchronized(listeners){  // In some case, c.write will block.
   	      int size=listeners.size();
@@ -224,11 +224,11 @@ class Proxy extends Source implements Runnable{
                 break;
 	      }
 
-              Client c;
+              Client c=null;
               for(int i=0; i<size;){
-                c=(Client)(listeners.elementAt(i));
 	        try{
-	          c.write(httpHeader, header,
+                  c=(Client)(listeners.elementAt(i));
+                  c.write(httpHeader, header,
   			  og.header_base, og.header, og.header_len,
 			  og.body_base, og.body, og.body_len);
 		}
@@ -241,8 +241,8 @@ class Proxy extends Source implements Runnable{
                 i++;
 	      }
 //  	    }
-            if(og.eos()!=0)eos=true;
-          }
+	    if(og.eos()!=0)eos=true;
+	  }
         }
       }
 
@@ -253,7 +253,7 @@ class Proxy extends Source implements Runnable{
           header=null;
           serialno=-1;
           init_ogg();
-          try { if(bitStream!=null)bitStream.close(); }
+          try { if(bitStream!=null)bitStream.close(); } 
           catch(Exception e) { System.out.println(e); }
 
           try{Thread.sleep(1000);}
@@ -267,14 +267,14 @@ class Proxy extends Source implements Runnable{
 
             bitStream=urlc.getInputStream();
             continue;
-          }
-          catch(Exception e){
+	  }
+	  catch(Exception e){
             retry=0;
-          }
-        }
-        else{
+	  }
+	}
+	else{
           stop();
-        }
+	}
         break;
       }
     }
@@ -294,8 +294,8 @@ class Proxy extends Source implements Runnable{
     if(me!=null){
       if(oy!=null) oy.clear();
       try {
-        if(bitStream!=null)bitStream.close();
-      }
+       if(bitStream!=null)bitStream.close();
+      } 
       catch(Exception e) { }
       bitStream=null;
       me=null;

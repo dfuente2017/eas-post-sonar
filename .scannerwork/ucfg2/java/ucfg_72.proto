@@ -1,0 +1,61 @@
+
+Hcom.jcraft.jroar.JRoar#readline(Ljava/io/InputStream;)Ljava/lang/String;R
+FD:/RepositorioGitHubDesktop/eas-post-sonar/com/jcraft/jroar/JRoar.javaÊ Ê(""12*∆
+3R
+FD:/RepositorioGitHubDesktop/eas-post-sonar/com/jcraft/jroar/JRoar.javaÚ+ Ú(.„‡
+R
+FD:/RepositorioGitHubDesktop/eas-post-sonar/com/jcraft/jroar/JRoar.javaÚ+ Ú(B
+%3java.lang.StringBuffer"8java.lang.StringBuffer#append(C)Ljava/lang/StringBuffer;*
+
+rtnjava.lang.StringBuffer*
+""2	append(C)*
+10
+1*µ
+6R
+FD:/RepositorioGitHubDesktop/eas-post-sonar/com/jcraft/jroar/JRoar.java ("\
+R
+FD:/RepositorioGitHubDesktop/eas-post-sonar/com/jcraft/jroar/JRoar.java (
+""*é
+10R
+FD:/RepositorioGitHubDesktop/eas-post-sonar/com/jcraft/jroar/JRoar.javaÎ Î(§°
+R
+FD:/RepositorioGitHubDesktop/eas-post-sonar/com/jcraft/jroar/JRoar.javaÎ Î( 	
+%2int"java.io.InputStream#read()I*
+
+isjava.io.InputStream2read()*
+3
+6
+10
+1*Ø
+12R
+FD:/RepositorioGitHubDesktop/eas-post-sonar/com/jcraft/jroar/JRoar.javaÁ Á(-çä
+R
+FD:/RepositorioGitHubDesktop/eas-post-sonar/com/jcraft/jroar/JRoar.javaÁ Á(+
+%0java.lang.StringBuffer"java.lang.StringBufferü
+ú
+R
+FD:/RepositorioGitHubDesktop/eas-post-sonar/com/jcraft/jroar/JRoar.javaÁ Á(-
+%1" java.lang.StringBuffer#<init>()V*
+
+%0java.lang.StringBufferú
+ô
+R
+FD:/RepositorioGitHubDesktop/eas-post-sonar/com/jcraft/jroar/JRoar.javaÁ Á(.
+rtnjava.lang.StringBuffer"__id*
+
+%0java.lang.StringBuffer*
+10*õ
+1R
+FD:/RepositorioGitHubDesktop/eas-post-sonar/com/jcraft/jroar/JRoar.javaÙ Ù(—Œ
+R
+FD:/RepositorioGitHubDesktop/eas-post-sonar/com/jcraft/jroar/JRoar.javaÙ Ù(
+%4java.lang.String"3java.lang.StringBuffer#toString()Ljava/lang/String;*
+
+rtnjava.lang.StringBuffer2
+toString()"n
+R
+FD:/RepositorioGitHubDesktop/eas-post-sonar/com/jcraft/jroar/JRoar.javaÙ Ù( 
+
+%4java.lang.String:
+isjava.io.InputStreamB"
+com.jcraft.jroar.JRoar

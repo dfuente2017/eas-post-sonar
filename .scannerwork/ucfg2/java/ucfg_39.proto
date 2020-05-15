@@ -1,0 +1,25 @@
+
+%com.jcraft.jroar.MySocket#readByte()IS
+ID:/RepositorioGitHubDesktop/eas-post-sonar/com/jcraft/jroar/MySocket.java= =("3*·
+2S
+ID:/RepositorioGitHubDesktop/eas-post-sonar/com/jcraft/jroar/MySocket.java>	 >(*"]
+S
+ID:/RepositorioGitHubDesktop/eas-post-sonar/com/jcraft/jroar/MySocket.java>+ >(:
+""*Ê
+3S
+ID:/RepositorioGitHubDesktop/eas-post-sonar/com/jcraft/jroar/MySocket.java> >(±
+®
+S
+ID:/RepositorioGitHubDesktop/eas-post-sonar/com/jcraft/jroar/MySocket.java> >(
+%0java.io.DataInputStream"__id*2*0
+com.jcraft.jroar.MySocket"
+dataInputStream¶³
+S
+ID:/RepositorioGitHubDesktop/eas-post-sonar/com/jcraft/jroar/MySocket.java> >()
+
+%1byte"#java.io.DataInputStream#readByte()B*
+
+%0java.io.DataInputStream2
+readByte()*
+2B
+com.jcraft.jroar.MySocket

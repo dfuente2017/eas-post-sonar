@@ -1,0 +1,7 @@
+organization=dfuente2017
+projectKey=dfuente2017_eas-post-sonar
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.7980
+dashboardUrl=https://sonarcloud.io/dashboard?id=dfuente2017_eas-post-sonar
+ceTaskId=AXIXSNNGOLaCCELWKqfL
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AXIXSNNGOLaCCELWKqfL
